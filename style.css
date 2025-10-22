@@ -1,0 +1,149 @@
+body {
+    background-image: url('others.jpg');
+    color: rgb(17, 14, 16);
+    margin: 0;
+    Padding: 0;
+}
+
+header,
+footer {
+    background-color: rgb(19, 51, 21);
+    color: rgb(228, 197, 197);
+    Padding: 20;
+    align-items: center;
+
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    margin-top: 10;
+
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: red;
+    margin: 10px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: bisque;
+
+}
+
+section {
+    padding: 40px 40px;
+    max-width: 1100px;
+    margin: auto;
+    background-color: rgb(92, 92, 133);
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 40px 50px lightblue;
+
+}
+
+.Menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.banner {
+    background: url('others.jpg') no-repeat center;
+    background-size: cover;
+    padding: 80px 20px;
+    text-align: center;
+    color: red;
+    font-size: 28px;
+
+}
+
+.Menu article {
+    flex: 1 1 30%;
+    background-color: skyblue;
+    Padding: 5px;
+    border-radius: 10px;
+    transition: transform 0.5s;
+    box-shadow: 10px 20px 50px red;
+
+}
+
+.menu img {
+    width: "100%";
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+
+.menu article:hover {
+    transform: scale(1.02);
+    color: skyblue;
+
+}
+
+form {
+    background: grey;
+    Padding: 25px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0px 20px 50px skyblue;
+}
+
+.labbel {
+    font-weight: bold;
+
+}
+
+button {
+    Padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(209, 24, 24);
+    cursor: pointer;
+    border: none;
+    background-color: green;
+    transition: color 0.5s;
+
+}
+
+input,
+textarea {
+    width: 100%;
+    Padding: 10px;
+    margin: 8px 0 15px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.contact-information {
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+footer {
+    font-size: 15px;
+    Padding: 15px;
+    text-align: center;
+
+}
+
+button :hover {
+    background-color: blue;
+}
+
+h2,
+h3 {
+    color: green;
+}
